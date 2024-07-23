@@ -1,12 +1,14 @@
 import React from "react"
-import '../styles/global.css'
+import '../styles/styles.css'
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 export default function HomePage() {
     return (
         <>
-        <Header/>
-        <h1>Homepage</h1>
+            <Header/>
+            <h1>Homepage</h1>
+            <Footer />
         </>
     )
 }

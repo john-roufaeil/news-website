@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--border);
+    margin: 0 -2rem;
+    color: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        gap: 0.5rem;
+        align-items: center;
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

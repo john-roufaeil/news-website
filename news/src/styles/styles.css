@@ -1,0 +1,92 @@
+:root {
+  --bg-color: #E6E6E6;
+  --primary: #297373;
+  --secondary: #FF8552;
+  --border: #39393A;
+  --text: #141204;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary);
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  margin: 0 2rem;
+}
+
+footer {
+  background-color: var(--border);
+  margin: 0 -2rem;
+  color: white;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 10px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin: 0 -2rem;
+}
+header img {
+  height: 100%;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+nav ul li a:hover {
+  color: var(--secondary);
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

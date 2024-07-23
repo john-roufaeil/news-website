@@ -4,12 +4,14 @@
     --secondary: #FF8552;
     --border: #39393A;
     --text: #141204;
+    font-size: 16px;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.3s ease-out;
 }
 
 body {
