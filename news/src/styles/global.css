@@ -1,0 +1,26 @@
+:root {
+    --bg-color: #E6E6E6;
+    --primary: #297373;
+    --secondary: #FF8552;
+    --border: #39393A;
+    --text: #141204;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary)
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    margin: 0 2rem;
+}

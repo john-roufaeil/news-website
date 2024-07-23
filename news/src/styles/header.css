@@ -1,0 +1,27 @@
+header {
+    border-bottom: 10px solid var(--primary);
+    background-color: white;
+    color: var(--primary);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin: 0 -2rem;
+
+    img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

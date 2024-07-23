@@ -8,7 +8,7 @@ export default function Root(props) {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/listings" element={<ListingPage />} />
+                <Route path="/listing" element={<ListingPage />} />
                 <Route path="/details/:id" element={<DetailsPage />} />
             </Routes>
         </BrowserRouter>

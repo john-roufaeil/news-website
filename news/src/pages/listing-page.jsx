@@ -1,7 +1,10 @@
-import React from "react"
+import Header from "../components/Header"
 
 export default function ListingPage() {
     return (
-        <h1>ListingPage</h1>
+        <>
+            <Header />
+            <h1>ListingPage</h1>
+        </>
     )
 }
