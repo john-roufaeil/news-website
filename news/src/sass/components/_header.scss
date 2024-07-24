@@ -1,6 +1,6 @@
 header {
     border-bottom: 10px solid var(--primary);
-    background-color: white;
+    background-color: var(--white);
     color: var(--primary);
     height: 100px;
     display: flex;
@@ -9,7 +9,8 @@ header {
     margin: 0 -2rem;
 
     img {
-        height: 100%;
+        margin: 10%;
+        height: 80%;
         width: auto;
     }
 }

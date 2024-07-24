@@ -1,0 +1,32 @@
+.news-abstract {
+    font-size: 1.2rem;
+}
+
+.news-info {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin: 0.5rem 0 2rem;
+    color: var(--text);
+}
+
+.news-body {
+    color: var(--text);
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.MuiChip-outlinedDefault {
+    border: 1px solid var(--primary) !important;
+    padding: 0.5rem 0 0.5rem 0.5rem !important;
+}
+
+.MuiChip-label,
+.MuiChip-icon {
+    color: var(--primary) !important;
+}

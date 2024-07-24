@@ -1,10 +1,36 @@
 :root {
     --bg-color: #E6E6E6;
-    --primary: #297373;
+    --primary: #1976D2;
     --secondary: #FF8552;
     --border: #39393A;
     --text: #141204;
     font-size: 16px;
+    font-family: monospace;
+}
+
+:root.light {
+    --bg-color: #E6E6E6;
+    --primary: #1976D2;
+    --secondary: #FF8552;
+    --border: #39393A;
+    --text: #141204;
+}
+
+:root.dark {
+    --bg-color: #121212;
+    --primary: #386dff;
+    --secondary: #ff6347;
+    --border: #303030;
+    --text: #f2f2f2;
+    --white: #303030;
+}
+
+:root.contrast {
+    --bg-color: #000;
+    --primary: #fff;
+    --secondary: #ff0000;
+    --border: #000;
+    --text: #fff;
 }
 
 * {
@@ -16,7 +42,7 @@
 
 body {
     background-color: var(--bg-color);
-    color: var(--primary)
+    color: var(--primary);
 }
 
 img {
@@ -25,6 +51,7 @@ img {
 
 main {
     margin: 0 2rem;
+    height: 100vh;
 }
 
 section {

@@ -1,8 +1,10 @@
 import logo from "../assets/logo.png"
+import Preferences from "./Preferences";
 
 export default function Header() {
     return (
         <header>
+            <Preferences />
             <a href='/' title="Go to homepage"><img src={logo} alt="Company Logo" className="logo" /></a>
             <nav>
                 <ul>

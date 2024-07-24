@@ -6,8 +6,10 @@ import Footer from "../components/Footer"
 export default function HomePage() {
     return (
         <>
-            <Header/>
-            <h1>Homepage</h1>
+            <Header />
+            <div className="fill-height">
+                <h1>Homepage</h1>
+            </div>
             <Footer />
         </>
     )

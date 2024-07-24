@@ -1,0 +1,35 @@
+.preferences {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    list-style: none;
+
+    .preference__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--background);
+        border: 1px solid var(--border);
+        cursor: pointer;
+        width: 2rem;
+        height: 2rem;
+        margin: 0;
+        padding: 0;
+        color: var(--text);
+
+        &:hover {
+            background-color: var(--primary);
+        }
+
+        &:active {
+            width: 2.5rem;
+        }
+    }
+}

@@ -1,15 +1,13 @@
 footer {
     background-color: var(--border);
-    margin: 0 -2rem;
+    margin: auto -2rem 0;
     color: white;
     height: fit-content;
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
     align-items: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    width: calc(100% + 4rem);
 
     ul {
         display: flex;
